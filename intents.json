@@ -1,0 +1,55 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening"],
+        "responses": ["Hello!", "Hey there!", "Hi! How can I assist you?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": ["Goodbye! Have a great day!", "See you next time!"]
+      },
+      {
+        "tag": "name",
+        "patterns": ["What is your name?", "Who are you?", "Tell me your name"],
+        "responses": ["I am an AI chatbot!", "You can call me Chatbot."]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thank you", "Thanks", "Thanks a lot"],
+        "responses": ["You're welcome!", "No problem!", "Glad to help!"]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What’s the weather like?", "Tell me the temperature"],
+        "responses": ["I don't have real-time data, but you can check a weather website."]
+      },
+      {
+        "tag": "date",
+        "patterns": ["What’s the date today?", "Tell me the date"],
+        "responses": ["I don’t have a calendar, but you can check your system date."]
+      },
+      {
+        "tag": "jokes",
+        "patterns": ["Tell me a joke", "Make me laugh", "Give me a joke"],
+        "responses": ["Why don’t scientists trust atoms? Because they make up everything!", "What do you call fake spaghetti? An impasta!"]
+      },
+      {
+        "tag": "advice",
+        "patterns": ["Give me some advice", "I need guidance", "Any life tips?"],
+        "responses": ["Stay positive and keep learning!", "Hard work and consistency are the keys to success."]
+      },
+      {
+        "tag": "programming",
+        "patterns": ["What is Python?", "Tell me about JavaScript", "Explain C++"],
+        "responses": ["Python is a high-level programming language known for its simplicity.", "JavaScript is mainly used for web development.", "C++ is a powerful language used for system programming and game development."]
+      },
+      {
+        "tag": "ai",
+        "patterns": ["What is AI?", "Tell me about artificial intelligence", "Explain AI"],
+        "responses": ["AI stands for Artificial Intelligence. It enables machines to mimic human intelligence and perform tasks such as learning and problem-solving."]
+      }
+    ]
+  }
+  
